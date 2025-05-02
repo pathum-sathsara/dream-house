@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php include "INC_HEAD.php" ?>
     <title>Dream House</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -1024,23 +1020,7 @@
             }
         }
     </style>
-</head>
-<body>
-    <!-- Nav Bar -->
-    <header class="navbackground">
-        <header class="wrapper" id="header1">
-                <img src="images/dreamhouse-logo.svg" alt="logo" id="logo">
-
-                <nav id="mainmenu">
-                    <a href="#" class="active"><img src="images/home-icon.svg" alt="Home"></a><span>|</span>
-                    <a href="#">Interior Ideas</a><span>|</span>
-                    <a href="#">Design Ideas</a><span>|</span>
-                    <a href="#">About Us</a><span>|</span>
-                    <a href="#" id="contacts">Contact Us</a>
-                </nav>
-                <img src="images/menu.svg" alt="Menu">   
-        </header>
-    </header>  
+    <?php include_once "INC_NAVI.php" ?>
     <!-- Main Header -->
     <section class="wrapper" id="mainsection">
         <div id="mainright">
@@ -1234,21 +1214,4 @@
             <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.360929243871!2d80.03251347591606!3d7.084090216393243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2fb6a031eb25f%3A0x5d31d65e1bffe988!2sRevoise!5e0!3m2!1sen!2slk!4v1696585944295!5m2!1sen!2slk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
     <!-- Footer -->
-    <footer>   
-        <div id="copyright">
-            <div class="wrapper" id="footermenu">
-                <div id="footerlinks">
-                    <a class="link" href="#">Home</a> 
-                    <a class="link" href="#">Interior Ideas</a> 
-                    <a class="link" href="#">Design Ideas</a> 
-                    <a class="link" href="#">About Us</a> 
-                    <a class="link2" href="#">Contact Us</a> 
-                </div>
-            </div> 
-            <div class="wrapper">
-                <p id="para3">All Right Reserved &copy; Webclass 2023</p>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
+    <?php include_once "INC_FOOT.php" ?>
